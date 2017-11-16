@@ -6,7 +6,7 @@ package br.com.encontrehoteis.dll;
  */
 public class ClienteDAO {
     
-    //Método inclrui
+    //Método incluir
     public void incluir(){
     
     }
