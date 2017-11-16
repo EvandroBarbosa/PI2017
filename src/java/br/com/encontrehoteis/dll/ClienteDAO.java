@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.com.encontrehoteis.dll;
 
 /**
@@ -11,4 +6,16 @@ package br.com.encontrehoteis.dll;
  */
 public class ClienteDAO {
     
+    //Método incluir
+    public void incluir(){
+    
+    }
+    
+    //metodo alterar
+    public void alterar(){}
+    
+    //metodo excluir
+    public void excluir(){}
+ 
+    public void listar(){}
 }
