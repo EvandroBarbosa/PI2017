@@ -5,7 +5,7 @@ package br.com.encontrehoteis.model;
  * @author Evandro
  */
 
-//vandao
+//vandao nova ramificação
 public class Cidade {
     private int codigo;
     private String nome;
