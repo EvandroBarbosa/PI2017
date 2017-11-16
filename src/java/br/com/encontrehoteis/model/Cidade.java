@@ -4,6 +4,8 @@ package br.com.encontrehoteis.model;
  *
  * @author Evandro
  */
+
+//vandao
 public class Cidade {
     private int codigo;
     private String nome;
