@@ -1,0 +1,8 @@
+/* css personalizado */
+
+.linhaCinza{
+    background-color:  #ccc;   
+}
+body{
+    padding-top: 70px;
+}
