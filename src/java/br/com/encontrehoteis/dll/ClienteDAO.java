@@ -6,4 +6,6 @@ package br.com.encontrehoteis.dll;
  */
 public class ClienteDAO {
     
+    //Comentário
+    
 }
