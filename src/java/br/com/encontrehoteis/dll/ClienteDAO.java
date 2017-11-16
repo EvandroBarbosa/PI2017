@@ -16,5 +16,6 @@ public class ClienteDAO {
     
     //metodo excluir
     public void excluir(){}
-    
+ 
+    public void listar(){}
 }
