@@ -7,7 +7,7 @@ package br.com.encontrehoteis.model;
 public class Usuario extends Pessoa{
     private String cargo;  
 
-    public Usuario(int codigo, String usuario, String senha, String nome, String sobreNome, Enum tipo) {
+    public Usuario(int codigo, String usuario, String senha, String nome, String sobreNome, TipoPessoa tipo) {
         super(codigo, usuario, senha, nome, sobreNome, tipo);
     }
 

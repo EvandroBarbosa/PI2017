@@ -11,7 +11,7 @@ public class Cliente extends Pessoa{
     private Date dataNasc;
     private String sexo;
 
-    public Cliente(int codigo, String usuario, String senha, String nome, String sobreNome, Enum tipo) {
+    public Cliente(int codigo, String usuario, String senha, String nome, String sobreNome, TipoPessoa tipo) {
         super(codigo, usuario, senha, nome, sobreNome, tipo);
     }
 
