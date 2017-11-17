@@ -8,11 +8,11 @@ import java.sql.SQLException;
  *
  * @author aluno
  */
-public class Conexão {
+public class Conexao {
 
     private static Connection conexao;
 
-    private Conexão() {
+    private Conexao() {
     }
 
     public static Connection getConexao() {
