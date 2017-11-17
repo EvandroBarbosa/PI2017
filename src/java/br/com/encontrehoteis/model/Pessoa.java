@@ -10,9 +10,14 @@ public class Pessoa {
     private String senha;
     private String nome;
     private String sobreNome;
-    private Enum tipo;
+    private TipoPessoa tipo;
 
-    public Pessoa(int codigo, String usuario, String senha, String nome, String sobreNome, Enum tipo) {
+    public Pessoa() {
+    }
+    
+    
+
+    public Pessoa(int codigo, String usuario, String senha, String nome, String sobreNome, TipoPessoa tipo) {
         this.codigo = codigo;
         this.usuario = usuario;
         this.senha = senha;
@@ -65,7 +70,7 @@ public class Pessoa {
         return tipo;
     }
 
-    public void setTipo(Enum tipo) {
+    public void setTipo(TipoPessoa tipo) {
         this.tipo = tipo;
     }
     
