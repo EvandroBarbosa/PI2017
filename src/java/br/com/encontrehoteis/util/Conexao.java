@@ -4,10 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
- * @author aluno
- */
 public class Conexao {
 
     private static Connection conexao;
@@ -20,12 +16,12 @@ public class Conexao {
             return conexao;
         } else {
             try {
-                Class.forName("Org.postgresql.Driver");
+                Class.forName("org.postgresql.Driver");
                 conexao = DriverManager.getConnection(
-                        "jdbc:postgresql://localhost:5432/encontrehoteis", "postgres", "senha");
+                        "jdbc:postgresql://localhost:5432/encontrehoteis", "postgres", "123456");
             } catch (ClassNotFoundException erro) {
                 System.out.println("Aplicação não contém o driver do banco");
-               return null;
+                return null;
             } catch (SQLException ex) {
                 System.out.println("Erro na conexão como banco: verifique a url, o usuário e a senha");
                 return null;

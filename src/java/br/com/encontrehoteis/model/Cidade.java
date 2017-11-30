@@ -1,12 +1,10 @@
 package br.com.encontrehoteis.model;
 
 /**
- *
  * @author Evandro
  */
-
-//vandao nova ramificação
 public class Cidade {
+
     private int codigo;
     private String nome;
     private Estado estado;
@@ -34,6 +32,4 @@ public class Cidade {
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
-    
-    
 }

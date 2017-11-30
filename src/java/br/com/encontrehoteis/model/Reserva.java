@@ -3,10 +3,10 @@ package br.com.encontrehoteis.model;
 import java.util.Date;
 
 /**
- *
  * @author Evandro
  */
 public class Reserva {
+
     private int codigo;
     private Date dataEntrada;
     private Date dataSaida;
@@ -16,6 +16,10 @@ public class Reserva {
     private Cliente cliente;
     private int qtdPessoa;
     private int qtdQuarto;
+
+    public Reserva() {
+
+    }
 
     public int getCodigo() {
         return codigo;
@@ -87,6 +91,5 @@ public class Reserva {
 
     public void setQtdQuarto(int qtdQuarto) {
         this.qtdQuarto = qtdQuarto;
-    } 
-    
+    }
 }

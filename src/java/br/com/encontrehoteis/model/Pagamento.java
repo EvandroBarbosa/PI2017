@@ -3,10 +3,10 @@ package br.com.encontrehoteis.model;
 import java.util.Date;
 
 /**
- *
  * @author Evandro
  */
 public class Pagamento {
+
     private int codigo;
     private int numeroCartao;
     private String nomeTitular;
@@ -79,6 +79,4 @@ public class Pagamento {
     public void setValorTotalPagamento(float valorTotalPagamento) {
         this.valorTotalPagamento = valorTotalPagamento;
     }
-    
-    
 }

@@ -1,0 +1,98 @@
+/* estilo para o formatação da pagina do hotel*/
+/* Fomulario do hotel*/
+div.container{
+    position: relative;   
+}
+body#hotel{
+    background-image: url('imagens/home.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav a#cabeHotel{
+    margin: 0px 490px;
+}
+div.formu{      
+    font-size: 15pt;
+    background-color: rgba(238, 238, 238, 0.9);         
+    width: 70%;  
+    margin: 150px auto 0px;
+}
+div form{
+    opacity: 1.0;
+    font-family: 'Arial';
+    align-items: center;
+    margin-left: 80px;     
+}
+form div button.btnCancelar{
+    margin-left: 80px;
+    margin-top: -100px;
+    width: 150px;    
+    height: 50px;
+    font-size: 25px;
+}
+button.btnSalvar{
+    margin-left: 400px;    
+    width: 150px;
+    height: 50px; 
+    font-size: 25px;
+}
+form div{
+    width: 80%;   
+}
+
+form div.input-group{
+    padding: 8px;
+}
+form div.input-group {
+    padding: 8px;
+}
+form div.input-group input.input-sexo{
+    height: 20px;
+    width: 20px;    
+}
+/* Estilização para pagina do cliente*/
+body#clinete{
+    background-image: url("imagens/cliente1.jpg");  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*bacgraund do usuario*/
+body#usuario{
+    background-image: url("imagens/usuario.jpg");  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*estilo da fonte*/
+fieldset legend.legend{
+    color: black;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+/*Listar as informações dos Hoteis*/
+#tabela{
+    margin-top: 100px;
+}
+nav div.linque{
+    font-size: 12pt;    
+    margin-top: -20px;
+    margin-right: auto;
+}
+nav div.linque a{
+    color: white;
+}
+ol{
+    list-style-type: none;
+}
+div.perfil{      
+    font-size: 15pt;
+    background-color: rgba(238, 238, 238, 0.9);         
+    width: 70%;  
+    margin: 100px auto 0px;
+}
+div.perfilCliente{      
+    font-size: 15pt;
+    background-color: rgba(238, 238, 238, 0.9);         
+    width: 70%;  
+    margin: 80px auto 0px;
+}

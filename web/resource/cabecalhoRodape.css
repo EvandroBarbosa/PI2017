@@ -1,0 +1,46 @@
+nav div#cabecalho{
+    height: 80px;
+    background-color: #000;    
+}
+nav div a.navbar-brand{
+    font-size: 30pt;    
+    padding-top: 30px;    
+    color: white;
+}
+
+nav div a.dropdown-toggle{
+    font-size: 15pt;
+    height: 77px;
+    margin-right: 10px;
+    padding-top: 30px;
+    color: #000;
+}
+nav div.login{
+    font-size: 12pt;
+    padding-top: 15px;
+    margin-right: 30px;
+}
+div ul li a#login{
+    color: white;
+    background-color: #000;
+}
+
+/*div a#cabeHotel{
+    margin-left: 350px;
+}*/
+
+/* footer */ 
+div.rodape{    
+    background-color: #000; 
+    height: 90px;
+    color: white;
+    padding: 30px;
+    margin-bottom: -22px;
+    font-family: 'verdana', sans-serif;    
+}
+p#rodape{
+    margin-left: 450px;
+}
+#secrodape{
+    margin-bottom: 100px;
+}

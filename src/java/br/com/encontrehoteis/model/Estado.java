@@ -1,10 +1,10 @@
 package br.com.encontrehoteis.model;
 
 /**
- *
  * @author Evandro
  */
 public class Estado {
+
     private int codigo;
     private String nome;
     private String sigla;
@@ -32,6 +32,4 @@ public class Estado {
     public void setSigla(String sigla) {
         this.sigla = sigla;
     }
-    
-    
 }

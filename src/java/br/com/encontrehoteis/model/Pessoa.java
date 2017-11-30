@@ -1,30 +1,28 @@
 package br.com.encontrehoteis.model;
 
 /**
- *
  * @author Evandro
  */
 public class Pessoa {
+
     private int codigo;
     private String usuario;
     private String senha;
     private String nome;
-    private String sobreNome;
     private TipoPessoa tipo;
+    private Endereco endereco;
 
     public Pessoa() {
     }
-    
-    
 
-    public Pessoa(int codigo, String usuario, String senha, String nome, String sobreNome, TipoPessoa tipo) {
+    public Pessoa(int codigo, String usuario, String senha, String nome, TipoPessoa tipo, Endereco endereco) {
         this.codigo = codigo;
         this.usuario = usuario;
         this.senha = senha;
         this.nome = nome;
-        this.sobreNome = sobreNome;
         this.tipo = tipo;
-    }        
+        this.endereco = endereco;
+    }
 
     public int getCodigo() {
         return codigo;
@@ -58,21 +56,23 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public String getSobreNome() {
-        return sobreNome;
-    }
-
-    public void setSobreNome(String sobreNome) {
-        this.sobreNome = sobreNome;
-    }
-
-    public Enum getTipo() {
+    public TipoPessoa getTipo() {
         return tipo;
     }
 
     public void setTipo(TipoPessoa tipo) {
         this.tipo = tipo;
     }
-    
-    
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
+    public Pessoa getPessoa() {
+        return this;
+    }
 }

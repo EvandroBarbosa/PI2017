@@ -3,16 +3,24 @@ package br.com.encontrehoteis.model;
 import java.util.Date;
 
 /**
- *
  * @author Evandro
  */
-public class Cliente extends Pessoa{
+public class Cliente extends Pessoa {
+
     private String cpf;
     private Date dataNasc;
     private String sexo;
+    private int cod_cliente;
 
-    public Cliente(int codigo, String usuario, String senha, String nome, String sobreNome, TipoPessoa tipo) {
-        super(codigo, usuario, senha, nome, sobreNome, tipo);
+    public Cliente(String cpf, Date dataNasc, String sexo) {
+        super();
+        this.cpf = cpf;
+        this.dataNasc = dataNasc;
+        this.sexo = sexo;
+    }
+
+    public Cliente() {
+        super();
     }
 
     public String getCpf() {
@@ -38,6 +46,12 @@ public class Cliente extends Pessoa{
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-    
-    
+
+    public int getCod_cliente() {
+        return cod_cliente;
+    }
+
+    public void setCod_cliente(int cod_cliente) {
+        this.cod_cliente = cod_cliente;
+    }
 }

@@ -1,0 +1,84 @@
+@import "css/_utilities.css";
+
+.menu_lista a{    
+    font-size: 15pt;    
+    color: white;
+
+}
+div.menu_lista ul{  
+    height: 80px;
+    margin-top: -48px;
+}
+nav div a.dropdown-toggle{
+    font-size: 15pt;
+    height: 77px;
+    margin-right: 10px;
+    padding-top: 30px;
+
+}
+nav div#cabe{
+    height: 80px;
+    background-color: #000;   
+}
+
+nav div a.navbar-brand{
+    font-size: 30pt;    
+    padding-top: 30px;    
+    color: white;
+}
+
+nav a#login{
+    font-size: 12pt;
+    padding-top: 15px;
+    color: black;
+    margin-right: 30px;
+}
+div#paginaP{
+    margin: 120px auto;
+}
+form img#image{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+
+}
+form div#formP{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.hoteis{
+    background-color: #eee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.lista-hoteis {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.lista-hoteis .hotel-item + .hotel-item {
+    margin-top: 7px;
+}
+
+.lista-hoteis .hotel-item {
+    padding: 5px;
+    background-color: white;
+}
+
+.hotel-item .media {
+    width: 180px;
+}
+
+.hotel-item .media,
+.hotel-item .conteudo {
+    float: left;
+}
+
+.hotel-item .conteudo {
+    width: calc(100% - 180px);
+    padding-left: 20px;
+}
+

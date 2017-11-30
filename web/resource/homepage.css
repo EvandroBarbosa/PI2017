@@ -1,0 +1,50 @@
+#home{
+    background: #d4d4d4;
+    margin-top: 78px ;     
+    width: 100%;   
+    
+}
+
+div#pesquisa{
+    width: 774px;
+    margin-left: 21em;
+}
+div.data{
+    width: 250px;
+    margin-left: 300px; 
+    margin-top: 5px;   
+}
+div#dataright{
+    margin-left: 560px;
+    margin-top: -62px;
+}
+div#selecione{
+    margin-left: 820px;
+    margin-top: -62px;
+}
+.linha{
+    margin: auto;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+div.listahotel{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.navs {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 18px;
+}
+
+.navsp {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 18px;
+}

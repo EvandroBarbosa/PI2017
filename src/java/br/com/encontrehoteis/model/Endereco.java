@@ -1,10 +1,10 @@
 package br.com.encontrehoteis.model;
 
 /**
- *
  * @author Evandro
  */
 public class Endereco {
+
     private int codigo;
     private String bairro;
     private String complemento;
@@ -68,6 +68,4 @@ public class Endereco {
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
     }
-    
-    
 }

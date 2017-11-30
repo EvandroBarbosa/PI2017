@@ -1,20 +1,21 @@
 package br.com.encontrehoteis.model;
 
 /**
- *
  * @author Evandro
  */
 public class Quarto {
+
     private int codigo;
     private String foto1;
     private String foto2;
     private String foto3;
-    private int numero;
+    private String numero;
     private String descricao;
     private String tipo;
     private int capacidade;
     private float valorDiaria;
     private boolean status;
+    private Hotel hotel;
 
     public int getCodigo() {
         return codigo;
@@ -48,11 +49,11 @@ public class Quarto {
         this.foto3 = foto3;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
@@ -95,5 +96,12 @@ public class Quarto {
     public void setStatus(boolean status) {
         this.status = status;
     }
-        
+
+    public Hotel getHotel() {
+        return hotel;
+    }
+
+    public void setHotel(Hotel hotel) {
+        this.hotel = hotel;
+    }
 }

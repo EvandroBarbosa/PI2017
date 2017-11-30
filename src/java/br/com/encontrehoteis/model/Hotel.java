@@ -1,10 +1,10 @@
 package br.com.encontrehoteis.model;
 
 /**
- *
  * @author Evandro
  */
 public class Hotel {
+
     private int codigo;
     private String nome;
     private String descricao;
@@ -13,6 +13,7 @@ public class Hotel {
     private String telefone;
     private String cnpj;
     private String razaoSocial;
+    private Endereco endereco;
 
     public int getCodigo() {
         return codigo;
@@ -77,6 +78,12 @@ public class Hotel {
     public void setRazaoSocial(String razaoSocial) {
         this.razaoSocial = razaoSocial;
     }
-    
-    
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
 }
